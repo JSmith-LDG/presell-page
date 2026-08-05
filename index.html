@@ -5,6 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Small Business Notion OS — All-in-One Workspace Template</title>
 <meta name="description" content="The complete Notion workspace for small business owners. CRM, finances, project management, invoicing, and weekly planning — pre-built and ready to use. $29.">
+<!-- Google Analytics — replace G-XXXXXXXXXX with your actual Measurement ID -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #fafafa; color: #1a1a1a; line-height: 1.6; }
@@ -28,6 +36,12 @@
   .testimonial { background: white; padding: 40px 0; text-align: center; border-bottom: 1px solid #eee; }
   .testimonial blockquote { max-width: 500px; margin: 0 auto; font-size: 1.1em; font-style: italic; color: #444; border-left: 3px solid #1a1a1a; padding-left: 16px; text-align: left; }
   .testimonial cite { display: block; margin-top: 12px; font-size: 0.9em; color: #888; font-style: normal; }
+  .pricing { padding: 60px 0; text-align: center; border-bottom: 1px solid #eee; }
+  .pricing h2 { font-size: 1.5em; margin-bottom: 16px; }
+  .pricing .price { margin: 16px 0; }
+  .pricing ul { list-style: none; padding: 0; max-width: 400px; margin: 0 auto; text-align: left; }
+  .pricing ul li { padding: 8px 0; padding-left: 24px; position: relative; }
+  .pricing ul li::before { content: "✓"; position: absolute; left: 0; color: #1a1a1a; font-weight: 700; }
   .faq { padding: 60px 0; }
   .faq h2 { text-align: center; font-size: 1.5em; margin-bottom: 32px; }
   .faq-item { background: white; border: 1px solid #eee; border-radius: 8px; padding: 20px 24px; margin-bottom: 12px; }
@@ -52,56 +66,46 @@
 <header>
   <div class="container">
     <h1>Small Business Notion OS</h1>
-    <p>The complete Notion workspace template for small business owners. CRM, finances, project management, invoicing, and weekly planning — pre-built and ready to duplicate.</p>
+    <p>The complete Notion workspace for small business owners. CRM, finances, project management, invoicing, and weekly planning — pre-built and ready to duplicate.</p>
   </div>
 </header>
 
 <section class="hero">
   <div class="container">
-    <h2>Stop juggling 5 different tools.</h2>
-    <p>One Notion workspace replaces your CRM, spreadsheet, task manager, and invoice system. Set up in 2 minutes — not 2 hours.</p>
-    <div class="price">$29<span> one-time</span></div>
-    <br>
-    <a href="https://gumroad.com/devilishgames" class="btn">Get Instant Access →</a>
-    <p style="margin-top: 16px; font-size: 0.85em; color: #999;">Includes setup guide + lifetime updates. 30-day money-back guarantee.</p>
+    <h2>One workspace. Every part of your business.</h2>
+    <p>Stop juggling spreadsheets, sticky notes, and 5 different apps. This Notion template gives you a CRM, financial tracker, project board, weekly planner, and invoice system — all in one place.</p>
+    <div class="price">$29 <span>one-time payment</span></div>
+    <a href="https://gumroad.com/devilishgames" class="btn">Get It Now — $29</a>
   </div>
 </section>
 
 <section class="features">
   <div class="container">
-    <h2>Everything your business needs</h2>
+    <h2>What's Included</h2>
     <div class="feature-grid">
       <div class="feature">
-        <h3>📊 Dashboard</h3>
-        <p>Real-time overview of revenue, tasks, clients, and deadlines. One glance at your business health.</p>
+        <h3>CRM</h3>
+        <p>Track leads, clients, and follow-ups. Know who you talked to, when, and what happened.</p>
       </div>
       <div class="feature">
-        <h3>👥 Client CRM</h3>
-        <p>Track leads, clients, notes, and follow-ups. Never lose a conversation or a deal.</p>
+        <h3>Financial Tracker</h3>
+        <p>Income, expenses, profit margins — all in one sheet with auto-calculations.</p>
       </div>
       <div class="feature">
-        <h3>💰 Financial Tracker</h3>
-        <p>Income, expenses, invoices, and profit margins — all in one place with auto-calculated formulas.</p>
+        <h3>Project Board</h3>
+        <p>Kanban-style project management. Move tasks from idea to done.</p>
       </div>
       <div class="feature">
-        <h3>📋 Project Manager</h3>
-        <p>Kanban board for tasks and projects. Drag, drop, done.</p>
+        <h3>Weekly Planner</h3>
+        <p>Time-blocking for your week. Know what you're working on and when.</p>
       </div>
       <div class="feature">
-        <h3>📅 Weekly Planner</h3>
-        <p>Time-blocking template for daily and weekly planning. Know exactly what to work on each day.</p>
+        <h3>Invoice Template</h3>
+        <p>Professional invoices with auto-calculated totals. Send directly from Notion.</p>
       </div>
       <div class="feature">
-        <h3>🧾 Invoice Template</h3>
-        <p>Professional invoice with auto-calculations. Send directly from Notion.</p>
-      </div>
-      <div class="feature">
-        <h3>🎯 Goal Tracker</h3>
-        <p>Quarterly goals with progress metrics. Stay accountable and measure what matters.</p>
-      </div>
-      <div class="feature">
-        <h3>📚 Knowledge Base</h3>
-        <p>SOPs, templates, and reference docs. Your business brain in one place.</p>
+        <h3>Goal Tracker</h3>
+        <p>Set quarterly goals and track progress. See what's working and what's not.</p>
       </div>
     </div>
   </div>
@@ -109,14 +113,29 @@
 
 <section class="testimonial">
   <div class="container">
-    <blockquote>"I've tried 6 different Notion templates. This is the only one that actually works for running a business. The CRM and financial tracker alone are worth $29."</blockquote>
-    <cite>— Solopreneur, 3-person service business</cite>
+    <blockquote>"I spent 3 weeks trying to build a system for my business. This template gave me the exact same thing in 10 minutes."</blockquote>
+    <cite>— Small business owner</cite>
+  </div>
+</section>
+
+<section class="pricing">
+  <div class="container">
+    <h2>One-time payment. Lifetime updates.</h2>
+    <div class="price">$29</div>
+    <ul>
+      <li>Full Notion template with 6 databases</li>
+      <li>Setup guide with screenshots</li>
+      <li>30-day money-back guarantee</li>
+      <li>Lifetime updates — new features free</li>
+      <li>No subscription. No monthly fee.</li>
+    </ul>
+    <a href="https://gumroad.com/devilishgames" class="btn">Get It — $29</a>
   </div>
 </section>
 
 <section class="faq">
   <div class="container">
-    <h2>Frequently asked questions</h2>
+    <h2>Frequently Asked Questions</h2>
     <div class="faq-item">
       <h3>Do I need to know Notion?</h3>
       <p>No. The template is plug and play. Duplicate it, fill in your info, and you're running. The setup guide walks you through everything.</p>
